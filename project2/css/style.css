@@ -19,7 +19,6 @@
     color: #4841b7cf;
     margin: 0px 20px;
     padding: 20px 10px 10px 10px !important;
-   
 }
 .nav-link:hover{
     color: white;
@@ -28,10 +27,10 @@
 /* navbar section css ends */
 /* logo section css */
 .logo-box{
-   background-color: white !important;
-   margin-bottom: 0px !important;
-   padding-top: 20px !important;
-   padding-bottom: 20px !important; 
+    background-color: white !important;
+    margin-bottom: 0px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important; 
 }
 .logo{
     text-align: center;
@@ -175,31 +174,31 @@
 }
 /* row-2 row1 */
 @media(min-width: 320px) and (max-width: 576px)
- {
+{
 	.row-2  .row1
 	{ 
 		padding: 0px;
 	}
 }
 @media(min-width: 320px) and (max-width: 576px)
- {
+{
 	.row-2  .row1 .first
 	{ 
         width:50%;
 	}
 }
 @media(min-width: 320px) and (max-width: 576px)
- {
+{
 	.row-2  .row1 .second
 	{
         width:50%;
 		
 	}
- }
+}
 
- /*-------------------------------------------------1--------------------------------------*/
- @media(min-width: 577px) and (max-width: 768px)
- {
+/*-------------------------------------------------1--------------------------------------*/
+@media(min-width: 577px) and (max-width: 768px)
+{
 	.row-2  .row1
 	{ 
 		padding: 0px;
