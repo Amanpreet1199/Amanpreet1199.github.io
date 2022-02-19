@@ -19,7 +19,7 @@
 }
 .menus  li a:hover{
     background-color:  rgb(5, 114, 78);
-    color: rgba(14, 171, 89, 0.74);
+    color: white;
     border-radius: 10px;
 }
 
