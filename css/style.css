@@ -1,0 +1,188 @@
+/* font imported from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Outfit:wght@300;400;600&family=Rubik:wght@300;400;500&family=Sansita+Swashed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Outfit:wght@300;400;600&family=Rubik:ital,wght@1,300;1,400&family=Sansita+Swashed:wght@700&display=swap");
+:root {
+	--bord-head-color: #5755e1;
+	--grad-1: #5355df;
+	--grad-2: #6a53e7;
+	--grad-3: #844eee;
+	--main-text-color: #000000;
+	--secondary-text-color: #777777;
+	--hover-font: #ffffff;
+	--main-font: Roboto;
+	--secondary-font: Rubik;
+	--default-font: sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: var(--main-font), var(--default-font);
+	color: var(--main-text-color);
+}
+
+body {
+	border-top: var(--bord-head-color) 5px solid;
+	height: 2000px;
+}
+
+.my_row {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+/* navbar style ends here */
+
+.logo {
+	font-size: 2.7rem !important;
+	font-weight: 900 !important;
+	color: var(--bord-head-color) !important;
+}
+.my-navbar-nav {
+	width: 70%;
+}
+.navigate_link {
+	font-family: var(--secondary-font);
+	font-size: 0.875rem !important;
+	font-weight: 500 !important;
+	line-height: 4.375rem;
+	color: var(--main-text-color);
+}
+
+.navigate_link:hover {
+	color: var(--bord-head-color) !important;
+}
+
+@media (min-width: 0px) and (max-width: 991px) {
+	.my-navbar-nav {
+		width: 100%;
+	}
+	.navigate_link {
+		line-height: 2.375rem;
+	}
+	.navigate_link:hover {
+		background-color: var(--bord-head-color);
+		color: var(--hover-font) !important;
+		padding: 2%;
+	}
+}
+/* navbar style ends here */
+
+/* banner section css starts here */
+.banner-img {
+	width: 100% !important;
+}
+.intro,
+.self-into-2,
+.hello_greeting {
+	font-family: var(--secondary-font) !important;
+}
+
+.hello_greeting {
+	font-size: 2.5rem !important;
+	font-weight: 500 !important;
+	padding-bottom: 1.2% !important;
+	border-bottom: solid 2px var(--main-text-color) !important;
+	margin-bottom: 2% !important;
+	line-height: 3rem !important;
+}
+
+.intro {
+	font-size: 4.375rem !important;
+	font-weight: 500 !important;
+	line-height: 3.75rem !important;
+}
+.self-into-2 {
+	font-size: 1.5rem !important;
+	font-weight: 500 !important;
+	line-height: 1.8rem !important;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+	.intro {
+		font-size: 3.375rem !important;
+	}
+	.self-into-2 {
+		font-size: 1rem !important;
+	}
+	.hello_greeting {
+		font-size: 1.5rem !important;
+	}
+}
+@media (min-width: 768px) and (max-width: 1399px) {
+	.intro {
+		font-size: 4.2rem !important;
+	}
+	.self-into-2 {
+		font-size: 1rem !important;
+	}
+	.hello_greeting {
+		font-size: 1.5rem !important;
+	}
+}
+/* banner section css ends here */
+
+/* about section css starts here */
+.heading {
+	font-family: var(--secondary-font) !important;
+	font-size: 2.25rem !important;
+	font-weight: 700 !important;
+	line-height: 3.125rem !important;
+}
+
+.about_myself {
+	font-family: roboto, sans-serif;
+	color: var(--secondary-text-color);
+	font-size: 0.938rem;
+	font-weight: 400;
+	line-height: 1.625rem;
+	text-align: justify;
+}
+.my_btn {
+	background: linear-gradient(
+		to right,
+		var(--grad-1),
+		var(--grad-2),
+		var(--grad-3)
+	);
+}
+
+.btn_text {
+	font-family: var(--secondary-font);
+	font-weight: 500;
+	font-size: 0.875;
+	line-height: 2.875rem;
+}
+.btn_text:hover {
+	background: white !important;
+	color: var(--grad-3) !important;
+}
+/* about section css ends here */
+
+/* project section css ends here */
+.proj_img {
+	width: 100%;
+	height: 30%;
+}
+.my_project:hover {
+	box-shadow: 3px 3px 3px 3px rgba(180, 156, 229, 0.769) !important;
+}
+
+/* project section css ends here */
+/* footer section css starts here */
+.footer {
+	background: linear-gradient(
+		to right,
+		var(--grad-1),
+		var(--grad-2),
+		var(--grad-3)
+	);
+}
+.contact_info {
+	font-family: var(--secondary-font) !important;
+	font-size: 4.375rem;
+}
+.end-footer {
+	padding: 0.3% 0 !important;
+}
+/* footer section css ends here */
