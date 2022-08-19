@@ -23,7 +23,6 @@
 
 body {
 	border-top: var(--bord-head-color) 5px solid;
-	height: 2000px;
 }
 
 .my_row {
