@@ -23,6 +23,7 @@
 
 body {
 	border-top: var(--bord-head-color) 5px solid;
+	background: url("../img/body-bg.png") !important;
 }
 
 .my_row {
@@ -68,8 +69,12 @@ body {
 /* navbar style ends here */
 
 /* banner section css starts here */
+
+.banner-area {
+	background: url("../img/home-banner.png");
+}
 .banner-img {
-	width: 112% !important;
+	width: 100% !important;
 }
 .intro,
 .self-into-2,
@@ -169,19 +174,50 @@ body {
 
 /* project section css ends here */
 /* footer section css starts here */
-.footer {
-	background: linear-gradient(
-		to right,
-		var(--grad-1),
-		var(--grad-2),
-		var(--grad-3)
-	);
+
+.part1-footer {
+	background: url("../img/subscribe-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10% 0;
+	text-align: center;
+	margin-bottom: -250px;
+	position: relative;
+	z-index: 5 !important;
 }
-.contact_info {
-	font-family: var(--secondary-font) !important;
-	font-size: 4.375rem;
+
+.mequote {
+	font-family: var(--main-font) !important;
+	font-size: 7.534983853606028vh;
+	font-weight: 500;
 }
-.end-footer {
-	padding: 0.3% 0 !important;
+
+.part2-footer {
+	background-color: #f9f9fd;
+	height: 500px !important;
+}
+.f-icon {
+	color: #777777 !important;
+}
+.footer-text::before {
+	content: "FOLLOW ME";
+	text-align: center;
+	font-family: var(--secondary-font);
+	font-size: 3.4445640473627557vh;
+	font-weight: 900;
+	color: #000000;
+	display: block;
+}
+.footer-text {
+	color: #777777;
+	font-size: 1.6146393972012918vh;
+}
+.footer-logo {
+	color: var(--bord-head-color);
+}
+@media (max-width: 768px) {
+	.mequote {
+		font-size: 4.534983853606028vh;
+	}
 }
 /* footer section css ends here */
