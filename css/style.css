@@ -215,7 +215,7 @@ body {
 .footer-logo {
 	color: var(--bord-head-color);
 }
-@media (max-width: 768px) {
+@media (min-width: 315px) and (max-width: 768px) {
 	.mequote {
 		font-size: 4.534983853606028vh;
 	}
