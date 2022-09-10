@@ -190,36 +190,45 @@ main {
 
 .mequote {
 	font-family: var(--main-font) !important;
-	font-size: 7.534983853606028vh;
+	font-size: 5rem;
 	font-weight: 500;
 }
 
 .part2-footer {
 	background-color: #f9f9fd;
-	height: 500px !important;
+	padding-top: 100px !important;
+	height: 700px !important;
 }
 .f-icon {
-	color: #777777 !important;
+	color: #777777;
 }
-.footer-text::before {
-	content: "FOLLOW ME";
-	text-align: center;
+.con {
+	text-decoration: none;
+}
+.f-icon-contact {
+	font-size: 2rem;
+	padding: 0.5% 0.5%;
+}
+.f-icon-contact:hover {
+	color: var(--grad-3) !important;
+}
+
+.followtext {
 	font-family: var(--secondary-font);
-	font-size: 3.4445640473627557vh;
+	font-size: 2rem;
 	font-weight: 900;
 	color: #000000;
-	display: block;
 }
 .footer-text {
 	color: #777777;
-	font-size: 1.6146393972012918vh;
+	font-size: 0.8rem;
 }
 .footer-logo {
 	color: var(--bord-head-color);
 }
 @media (min-width: 315px) and (max-width: 928px) {
 	.mequote {
-		font-size: 4.534983853606028vh;
+		font-size: 2.633rem;
 	}
 }
 /* footer section css ends here */
